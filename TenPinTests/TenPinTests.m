@@ -36,9 +36,9 @@ int calc_bowling (const char *argStr);
    // Use XCTAssert and related functions to verify your tests produce the correct results.
 
    XCTAssert (calc_bowling(test1) == 300, @"Bad test for %s", test1);
-   XCTAssert (calc_bowling(test2) == 150, @"Bad test for %s", test1);
-   XCTAssert (calc_bowling(test3) == 90, @"Bad test for %s", test1);
-   XCTAssert (calc_bowling(test4) == 92, @"Bad test for %s", test1);
+   XCTAssert (calc_bowling(test2) == 150, @"Bad test for %s", test2);
+   XCTAssert (calc_bowling(test3) == 90, @"Bad test for %s", test3);
+   XCTAssert (calc_bowling(test4) == 92, @"Bad test for %s", test4);
 
 }
 
