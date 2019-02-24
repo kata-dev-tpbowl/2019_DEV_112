@@ -219,8 +219,9 @@ int  calc_bowling (const char *argStr)
    
    NSLog (@"Game sum is: %lu", (unsigned long)sum);
    
-   return (0);
+   return ((int)sum);
 }
+
 #pragma - main
 
 int  main (int argc, const char * argv[])
