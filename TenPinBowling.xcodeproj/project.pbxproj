@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB1852FB2222F41B00409128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1852FA2222F41B00409128 /* main.m */; };
 		EB1853082222F46100409128 /* TenPinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1853072222F46100409128 /* TenPinTests.m */; };
+		EBD76F5122232F0D0000D6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1852FA2222F41B00409128 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -187,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD76F5122232F0D0000D6AD /* main.m in Sources */,
 				EB1853082222F46100409128 /* TenPinTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
