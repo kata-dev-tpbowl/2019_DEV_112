@@ -25,8 +25,6 @@ int  calc_bowling (const char *argStr)
    
    int  idxThrow=0, idxFrame=0;
    
-   // NSUInteger       carryOver = 0;
-   
    if (argStr)  {
       const char  *chPtr = argStr;
       
@@ -39,7 +37,7 @@ int  calc_bowling (const char *argStr)
             throws[idxFrame][idxThrow] = 10;
             idxThrow = 1;  // So we advance to the next frame
          }
-         else  if (isdigit(*chPtr) /*|| carryOver*/)  {  // Handles both "6-" &&  "6/"
+         else  if (isdigit(*chPtr))  {  // Digits
             int  tVal = (int)(*chPtr - '0');
             
             throws[idxFrame][idxThrow] = tVal;
