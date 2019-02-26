@@ -40,3 +40,7 @@ Ten Pin Bowling Test: 150
 Ten Pin Bowling Test: 90
 
 Ten Pin Bowling Test: 92
+
+# Tests
+
+• From Xcode or command line: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -scheme TenPinTests test
