@@ -11,7 +11,7 @@ Clone the repo:
 • Save to disk
 
 
-Building:
+# Building:
 
 A) From Xcode
 
@@ -27,7 +27,7 @@ B) From Terminal
 
 • Run ./TenPinBowlingApp
 
-Expected result as output:
+# Expected result as output:
 
 Hello, Bowling!
 
