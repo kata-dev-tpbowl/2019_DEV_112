@@ -28,7 +28,7 @@ int  calc_bowling (const char *argStr)
    if (argStr)  {
       const char  *chPtr = argStr;
       
-      while (*chPtr)  {  // Two extra, maybe
+      while (*chPtr && (idxFrame < kMaxFrames+2))  {  // Two extra, if all Xs
          
          if (toupper(*chPtr) == 'X')  {  // Strike
             if (idxThrow)
@@ -63,8 +63,6 @@ int  calc_bowling (const char *argStr)
             idxThrow = 0;
             idxFrame++;
          }
-         if (idxFrame >= kMaxFrames+2)
-            break;
       }
    }
    

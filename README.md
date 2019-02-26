@@ -11,6 +11,14 @@ A) From Xcode
 • Buld target "TenPinBowling"
 B) From Terminal
 • cd into project directory
-• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowling 
+• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowlin as outputg 
 • That would copy the product into the same directory under name "TenPinBowlingApp"
 • Run ./TenPinBowlingApp
+
+Expected result as output:
+
+Hello, Bowling!
+Ten Pin Bowling Test: 300
+Ten Pin Bowling Test: 150
+Ten Pin Bowling Test: 90
+Ten Pin Bowling Test: 92
