@@ -9,12 +9,17 @@ Clonig the repo:
 Building:
 
 A) From Xcode
+
 • Buld target "TenPinBowling"
 
 B) From Terminal
+
 • cd into project directory
+
 • Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowlin as outputg 
+
 • That would copy the product into the same directory under name "TenPinBowlingApp"
+
 • Run ./TenPinBowlingApp
 
 Expected result as output:
