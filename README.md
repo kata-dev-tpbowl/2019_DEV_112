@@ -1,10 +1,15 @@
 # 2019_DEV_112
+
 TenPin Bowling
 
-Clonig the repo:
+Clone the repo:
+
 • From Xcode -> Source Control -> Clone...
+
 • Type or Copy/Paste: "kata-dev-tpbowl/2019_DEV_112.git" into address bar
+
 • Save to disk
+
 
 Building:
 
@@ -25,7 +30,11 @@ B) From Terminal
 Expected result as output:
 
 Hello, Bowling!
+
 Ten Pin Bowling Test: 300
+
 Ten Pin Bowling Test: 150
+
 Ten Pin Bowling Test: 90
+
 Ten Pin Bowling Test: 92
