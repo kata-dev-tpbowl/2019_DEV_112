@@ -63,10 +63,8 @@ int  calc_bowling (const char *argStr)
             idxThrow = 0;
             idxFrame++;
          }
-         if (idxFrame >= kMaxFrames+2)  {
-            NSLog (@"Something's wrong with number of frames");
+         if (idxFrame >= kMaxFrames+2)
             break;
-         }
       }
    }
    
