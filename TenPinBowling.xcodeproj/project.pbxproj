@@ -12,18 +12,6 @@
 		EBD76F5122232F0D0000D6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1852FA2222F41B00409128 /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EB1852F52222F41B00409128 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		EB1852F72222F41B00409128 /* TenPinBowling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TenPinBowling; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1852FA2222F41B00409128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,7 +90,7 @@
 			buildPhases = (
 				EB1852F32222F41B00409128 /* Sources */,
 				EB1852F42222F41B00409128 /* Frameworks */,
-				EB1852F52222F41B00409128 /* CopyFiles */,
+				EB95FC682225D0B100A40C2D /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -174,6 +162,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB95FC682225D0B100A40C2D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp ${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME} ${PROJECT_DIR}/${EXECUTABLE_NAME}App\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB1852F32222F41B00409128 /* Sources */ = {
