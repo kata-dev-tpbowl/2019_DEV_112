@@ -18,10 +18,6 @@
 		EB1853052222F46100409128 /* TenPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1853072222F46100409128 /* TenPinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenPinTests.m; sourceTree = "<group>"; };
 		EB1853092222F46100409128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB5F7F0B2222F557000BC57E /* Notes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Notes.h; path = ../../Desktop/4Dummies/Notes.h; sourceTree = "<group>"; };
-		EB5F7F0C2222F557000BC57E /* Search-Results.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Search-Results.h"; path = "../../Desktop/4Dummies/Search-Results.h"; sourceTree = "<group>"; };
-		EB5F7F0D2222F557000BC57E /* Run-Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Run-Debug.h"; path = "../../Desktop/4Dummies/Run-Debug.h"; sourceTree = "<group>"; };
-		EB5F7F0E2222F557000BC57E /* Console-Output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Console-Output.h"; path = "../../Desktop/4Dummies/Console-Output.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +41,6 @@
 		EB1852EE2222F41B00409128 = {
 			isa = PBXGroup;
 			children = (
-				EB5F7F0E2222F557000BC57E /* Console-Output.h */,
-				EB5F7F0B2222F557000BC57E /* Notes.h */,
-				EB5F7F0D2222F557000BC57E /* Run-Debug.h */,
-				EB5F7F0C2222F557000BC57E /* Search-Results.h */,
 				EB1852F92222F41B00409128 /* TenPinBowling */,
 				EB1853062222F46100409128 /* TenPinTests */,
 				EB1852F82222F41B00409128 /* Products */,
