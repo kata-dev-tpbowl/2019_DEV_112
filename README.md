@@ -25,11 +25,7 @@ B) From Terminal
 Expected result as output:
 
 Hello, Bowling!
-
 Ten Pin Bowling Test: 300
-
 Ten Pin Bowling Test: 150
-
 Ten Pin Bowling Test: 90
-
 Ten Pin Bowling Test: 92
