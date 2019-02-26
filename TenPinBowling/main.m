@@ -104,7 +104,6 @@ int  main (int argc, const char * argv[])
          calc_bowling ("9- 9- 9- 9- 9- 9- 9- 9- 9- 9-");   // 90
          calc_bowling ("9- 9- 9- 9- 9- 9- 9- 9- 9- 9/1");  // 92
       }
-
    }
    
    return (0);
