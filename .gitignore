@@ -37,6 +37,7 @@ Temporary Items
 
 ## Build generated
 build/
+index/
 DerivedData/
 
 ## Various settings
