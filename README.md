@@ -27,6 +27,8 @@ B) From Terminal
 
 • Run ./TenPinBowlingApp
 
+• Or with one param: ./TenPinBowlingApp 6/6/6/6/6/6/6/6/6/6/6  (this should produce 160 as result)
+
 # Expected result as output:
 
 Hello, Bowling!
