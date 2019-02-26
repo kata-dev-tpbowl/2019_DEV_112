@@ -7,8 +7,10 @@ Clonig the repo:
 • Save to disk
 
 Building:
+
 A) From Xcode
 • Buld target "TenPinBowling"
+
 B) From Terminal
 • cd into project directory
 • Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowlin as outputg 
