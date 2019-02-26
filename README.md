@@ -10,6 +10,8 @@ Clone the repo:
 
 • Save to disk
 
+• Or from Terminal: git clone kata-dev-tpbowl/2019_DEV_112.git
+
 
 # Building:
 
