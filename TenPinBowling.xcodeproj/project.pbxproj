@@ -82,7 +82,6 @@
 			buildPhases = (
 				EB1852F32222F41B00409128 /* Sources */,
 				EB1852F42222F41B00409128 /* Frameworks */,
-				EB95FC682225D0B100A40C2D /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -154,27 +153,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		EB95FC682225D0B100A40C2D /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp ${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME} ${PROJECT_DIR}/${EXECUTABLE_NAME}App\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB1852F32222F41B00409128 /* Sources */ = {
