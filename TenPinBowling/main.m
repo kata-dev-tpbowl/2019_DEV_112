@@ -79,8 +79,11 @@ int  calc_bowling (const char *argStr)
       sum += bonuses[idxFrame][0] + bonuses[idxFrame][1];
    }
    
-   NSLog (@"Ten Pin Bowling Test: %d", sum);
-   
+   if (argStr)
+      NSLog (@"Game  %s: %d", argStr, sum);
+   else
+      NSLog (@"No game specified.");
+
    return (sum);
 }
 

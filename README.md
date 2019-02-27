@@ -10,39 +10,41 @@ Clone the repo:
 
 • Save to disk
 
-• Or from Terminal: git clone kata-dev-tpbowl/2019_DEV_112.git
+• Or from Terminal: git clone https://github.com/kata-dev-tpbowl/2019_DEV_112.git
 
 
-# Building:
-
-A) From Xcode
+# Building from Xcode
 
 • Buld target "TenPinBowling"
 
-B) From Terminal
-
-• cd into project directory
-
-• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowlin as outputg 
-
-• That would copy the product into the same directory under name "TenPinBowlingApp"
-
-• Run ./TenPinBowlingApp
-
-• Or with one param: ./TenPinBowlingApp 6/6/6/6/6/6/6/6/6/6/6  (this should produce 160 as result)
+• Product -> Run
 
 # Expected result as output:
 
 Hello, Bowling!
 
-Ten Pin Bowling Test: 300
+Game  X X X X X X X X X X X X: 300
 
-Ten Pin Bowling Test: 150
+Game  5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5: 150
 
-Ten Pin Bowling Test: 90
+Game. 9- 9- 9- 9- 9- 9- 9- 9- 9- 9-: 90
 
-Ten Pin Bowling Test: 92
+Game. 9- 9- 9- 9- 9- 9- 9- 9- 9- 9/1: 92
+
+# Building in terminal
+
+• cd into project directory
+
+• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowlin as outputg 
+
+• That should produce our product in Build->Debug folder: TenPinBowling
+
+• Run ./TenPinBowling
+
+• Or with one param: ./TenPinBowling 6/6/6/6/6/6/6/6/6/6/6  (this should produce 160 as result)
 
 # Tests
 
-• From Xcode or command line: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -scheme TenPinTests test
+• From Xcode by switching scheme and then Product - > Test
+
+• Command line in terminal: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -scheme TenPinTests test
