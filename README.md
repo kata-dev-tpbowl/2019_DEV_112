@@ -1,6 +1,6 @@
 # 2019_DEV_112
 
-TenPin Bowling
+TenPin Bowling (needed at least OSX Mojave 10.14 + Xcode 10.1)
 
 Clone the repo:
 
