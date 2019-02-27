@@ -35,7 +35,7 @@ Game. 9- 9- 9- 9- 9- 9- 9- 9- 9- 9/1: 92
 
 • cd into project directory
 
-• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowling as output 
+• Run: xcodebuild -project TenPinBowling.xcodeproj -configuration Debug -target TenPinBowling 
 
 • That should produce our product in Build->Debug folder: TenPinBowling
 
